@@ -22,23 +22,24 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Sobre o que é essa pagína?</ThemedText>
         <ThemedText>
-          Essa pagína é um simulado que mostrara...
+          Essa pagína é um simulado do professor Grazziane que tem como objetivo verificar as habilidades adiquiridas nas aulas,
+          mostrando que o aluno possui a capacidade de programar um aplicativo na qual possa acessar a camera do celular e acessar fotos na galeria.
+          Veja mais a seguir:
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">Camera</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+          Ao clicar na área da camera você tera que inicialmente dar a permição da camera, logo após da-lá, 
+          a camera ira aparecer inicialmente na traseira, e havera um botão para trocar a camera para a frontal.
+          Pode ir alternando livremente e ver tudo pela aplicativo.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Galeria</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+         Ao clicar na área da galeria, você terá de dar permissão para que o aplicativo acesse suas fotos.
+         Após dado a permissão começara a aparecer suas fotos na qual você possui na galeria, você podera visualizar livremente.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
